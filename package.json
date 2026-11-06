@@ -1,0 +1,38 @@
+{
+  "name": "municipal-issue-portal",
+  "version": "1.0.0",
+  "description": "Municipal Problem Reporting and Resolution Website for citizens and authorities.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "start:supabase": "node server-new.js",
+    "dev": "node server.js",
+    "test": "node -c server.js"
+  },
+  "keywords": [
+    "municipal",
+    "complaints",
+    "civic",
+    "portal"
+  ],
+  "author": "",
+  "license": "MIT",
+  "engines": {
+    "node": "26.x"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.133.0",
+    "@supabase/supabase-js": "^2.116.0",
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "express-rate-limit": "^8.7.0",
+    "express-validator": "^7.3.2",
+    "helmet": "^8.3.0",
+    "jsonwebtoken": "^9.0.2",
+    "multer": "^1.4.5-lts.1",
+    "openai": "^7.43.0",
+    "sqlite3": "^5.1.7"
+  }
+}
